@@ -1,0 +1,27 @@
+/* line 3, /Users/appacademy/Desktop/W7D3/Pokedex/skeleton/app/assets/stylesheets/pokedex.scss */
+.pokedex {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  background-color: white;
+  vertical-align: middle;
+  box-sizing: border-box;
+  overflow: scroll;
+  margin-left: 40px;
+}
+
+/* line 16, /Users/appacademy/Desktop/W7D3/Pokedex/skeleton/app/assets/stylesheets/pokedex.scss */
+li {
+  width: 150px;
+  height: 100%;
+  list-style: none;
+  padding: 5px;
+  border: 6px solid black;
+  border-radius: 20px;
+}
+
+/* line 26, /Users/appacademy/Desktop/W7D3/Pokedex/skeleton/app/assets/stylesheets/pokedex.scss */
+img {
+  width: 50px;
+  margin: 0 10px;
+}
